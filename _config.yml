@@ -28,7 +28,6 @@ twitter_username: only1sale
 github_username:  only1sale
 
 # Build settings
-theme: minima
 plugins:
   - jekyll-feed
 
