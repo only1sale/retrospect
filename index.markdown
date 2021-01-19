@@ -7,8 +7,9 @@ layout: home
 
 <section id="one" class="wrapper style1">
     <div class="inner">
+        {% assign odd = true %}
         {% for post in site.posts %}
-        <article class="feature left">
+        <article class= {% if odd %} "feature left" {% assign odd = false %} {% else %} "feature right" {% assign odd = true %} {% endif %}>
             <span class="image"><img src="{{ site.baseurl }}/images/pic01.jpg" alt="" /></span>
             <div class="content">
                 <h2>{{ post.title }}</h2>
