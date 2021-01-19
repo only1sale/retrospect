@@ -2,6 +2,7 @@
 layout: "post"
 title: "Novi Post"
 categories: jekyll update
+comments: true
 ---
 
 # Novi Post
